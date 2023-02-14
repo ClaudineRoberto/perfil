@@ -9,13 +9,6 @@
     <title>Login</title>
 </head>
 <body>
-
-    <?php 
-    session_start();
-    $_SESSION["nome"] = "Claudine";
-    echo $_SESSION["nome"];
-    echo "<hr>";
-    ?>
     
     <section class="fundo">
         <div class="container">

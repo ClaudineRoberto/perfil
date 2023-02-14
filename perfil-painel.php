@@ -20,7 +20,7 @@
 
                             <a href="logout.php" class="btn btn-success">Sair</a>
                             <?php session_start();?>    
-                            <?php echo $_SESSION["nome"];?>
+                            <?php echo $_SESSION["usuario"];?>
 
                             </div>
                         </div>
