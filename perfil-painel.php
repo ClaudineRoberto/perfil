@@ -17,9 +17,14 @@
                     <form action="" class="">
                         <div class="row">
                             <div class="col">
+                            <?php session_start();
+                            
+                            if(!isset($_SESSION['usuario'])){
+                                header("location: login.php");
+                            }
+                            ?>
 
-                            <a href="logout.php" class="btn btn-success">Sair</a>
-                            <?php session_start();?>    
+                            <a href="logout.php" class="btn btn-success"> Sair</a>
                             <?php echo $_SESSION["usuario"];?>
 
                             </div>
