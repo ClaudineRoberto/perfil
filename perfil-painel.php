@@ -11,6 +11,9 @@
 <body>
     
     <section class="fundo">
+    <?php
+        include_once("menu.php");
+        ?>
         <div class="container">
             <div class="row w-50 ms-auto me-auto vh-100">
                 <div class="col align-self-center border rounded-3 p-3 fundoBranco">
