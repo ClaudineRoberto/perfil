@@ -28,6 +28,7 @@
                             ?>
 
                             <a href="logout.php" class="btn btn-success"> Sair</a>
+                            <a href="perfil-alterar.php" class="btn btn-success"> Alterar</a>
                             <?php echo $_SESSION["usuario"];?>
 
                             </div>

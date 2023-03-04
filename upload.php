@@ -6,4 +6,6 @@ $nomeNovo = round(microtime(true)) . "." . end($extensao);
 
 
 move_uploaded_file($_FILES["arquivo"]["tmp_name"],$pasta . $nomeNovo);
+
+header("location: login.php");
 ?>
